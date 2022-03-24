@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <object data="product.pdf" width="480px"></object>
+    <embed src="medias/spring.mp3" width="50%">
+    <!--embed_웹문서에 내재하겠다. 비디오나 오디오 파일 자동실행-->
+    <audio src="medias/spring.mp3" controls autoplay loop muted></audio>
+    <!--속성을 뒤에 적어주어야 화면에 보이고 그냥으로는 자동실행 되지 않음
+    loop_반복 muted_음소거-->
+    <embed src="medias/flower.mp4">
+    <video src="medias/flower.mp4" controls poster="images/mic.jpg"></video>
+    <!--poster_썸네일-->
+    <a href="http://www.google.com">
+        <img src="images/salad.jpg" alt="샐러드영상" width="100%">
+        <!--png,jpg,gif 가능
+        alt_이미지 설명하는 속성(네트워크 대기시간 시 사용자에게 친절)
+        %_상대적 크기 맞춤-->
+    </a><!--이미지에 링크 걸기-->
+
+    <a href="image-1.html"
+        target="_blank"><!--새 탭으로 이동-->
+        <h2>이미지 실습</h2>
+    </a><br>
+
+    <a href="http://www.duksung.ac.kr"></a><br>
+</body>
+</html>
