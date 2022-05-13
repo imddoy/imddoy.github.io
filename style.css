@@ -1,0 +1,98 @@
+.container{
+    width: 100%-0px;
+    margin-left: 340px;
+    margin-right: 0px;
+}
+audio{
+    width: 280px;
+}
+#header{
+    width: 340px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-style: italic;
+    position:fixed;
+    text-align: center;
+}
+h1{
+    color: #000;
+    text-align: left;
+    margin-left: 20px;
+    text-shadow: 5px 5px #eee;
+}
+.title{
+    margin-left:20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#sidebar{
+    background-color: #FAC6E2;
+    box-sizing: border-box;
+    width: 340px;
+    padding: 150px 30px;
+    overflow: visible;
+    float:left;
+    margin-top: 0px;
+    box-sizing:border-box;
+    display: full;
+    justify-content: center;
+    position:fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+#logo{
+    text-align: center;
+    color: #000;
+    margin-left: 20px;
+    text-shadow: 5px 5px #eee;
+    font-size:32px;
+}
+#profile{
+    margin: 0 auto;
+    width: 230px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 50px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+    font-family: 'Tinos', serif;
+}
+
+#main, #about_me, #project, #contact{
+    float: left;
+    padding: 100px;
+    box-sizing: border-box;
+    width: 100%; height: 870px;
+    background-color: white;
+}
+
+.me{
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+#nothing{
+    margin-top: 10px;
+}
+.float-wrap{
+    overflow: hidden;
+}
+footer{
+    clear:left;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font: italic;
+    margin-top: 550px;;
+}
